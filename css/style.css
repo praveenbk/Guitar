@@ -1,0 +1,40 @@
+.noteA{
+	background-color:#D42626;
+}
+.noteB{
+	background-color:#E4CDCD;
+}
+.noteC{
+	background-color:#D0D0D0;
+}
+.noteD{
+	background-color:#C0C0C0;
+}
+.noteE{
+	background-color:#A0A0A0;
+}
+.noteF{
+	background-color:#272727;
+}
+
+.selected{
+	background-color: red;
+}
+
+.deselected{
+	background-color: none;
+}
+.string{
+	color:#000000;
+	width: 10px;
+	height: 100px;
+}
+
+.tuner{
+	width: 100px;
+	height: 100px;	
+}
+
+.foo {
+    outline: 1px solid orange;
+}

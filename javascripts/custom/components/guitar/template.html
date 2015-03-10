@@ -1,0 +1,8 @@
+<span>
+	<div>{{guitar.name}}</div>
+	<span data-ng-repeat="string in guitar.strings">
+		<button data-ng-click="selectString(string)" class="btn string note{{string.note}}">{{string.name}}</button>
+		
+	</span>
+	<div>Selected String:{{selectedString.name}}</div>
+</span>		

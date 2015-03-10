@@ -1,0 +1,8 @@
+<div>
+	<slider floor="1" ceiling="6" step="1" value='1' ng-model="selectedString"></slider>
+	<span data-ng-repeat="guitar in Guitar.getCollection()">
+		<span data-ng-click="selectGuitar(guitar)"  ng-class="guitar.name == selectedGuitar.name ? 'selected':'deselected'">{{guitar.name}}</span>
+	</span>
+	<div> Selected Guitar: {{selectedGuitar.name}} </div>
+	<div> Selected String: s{{selectedString}} </div>
+</div>
